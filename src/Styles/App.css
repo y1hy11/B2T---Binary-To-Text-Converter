@@ -1,0 +1,6 @@
+@import '../Styles/components/Navbar.css';
+@import '../Styles/components/Footer.css';
+@import '../Styles/components/InfoSection.css';
+@import '../Styles/components/Convert.css';
+@import './base/variables.css';
+@import './base/utilities.css';
