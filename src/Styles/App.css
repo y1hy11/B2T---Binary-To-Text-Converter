@@ -1,6 +1,11 @@
-@import '../Styles/components/Navbar.css';
-@import '../Styles/components/Footer.css';
-@import '../Styles/components/InfoSection.css';
-@import '../Styles/components/Convert.css';
-@import './base/variables.css';
-@import './base/utilities.css';
+@import "../Styles/components/Navbar.css";
+@import "../Styles/components/Footer.css";
+@import "../Styles/components/ErrorBoundary.css";
+@import "../Styles/pages/contact.css";
+@import "../Styles/components/InfoSection.css";
+@import "../Styles/pages/Convert.css";
+@import "../Styles/pages/Home.css";
+@import "./pages/PrivacyPolicy.css";
+@import "./base/variables.css";
+@import "./base/utilities.css";
+@import "./components/Loading.css";
