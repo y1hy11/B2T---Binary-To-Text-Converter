@@ -9,21 +9,26 @@ A Simple modern React-based web application for converting between Binary, Hexad
 - Binary ↔ Text
 - Hexadecimal ↔ Text
 - Decimal ↔ Text
+- Binary ↔ Hexadecimal
+- Decimal ↔ Hexadecimal
+- Text ↔ Hexadecimal
+- Text ↔ Decimal
+- Text ↔ Binary
 - Real-time conversion
 
 ### User Interface
 
 - Clean, modern design
-- Dark/Light theme support
-- Mobile responsive layout
-- Copy to clipboard functionality
+- No regisration required
+- No ads
+- Open source
+- Easy to use
 
 ### Additional Features
 
-- Error boundary protection
-- Loading states with animations
-- Contact form with validation
-- Privacy policy page
+- Dark/Light theme support
+- Mobile responsive layout
+- Copy to clipboard functionality
 
 ## 🛠️ Tech Stack
 
