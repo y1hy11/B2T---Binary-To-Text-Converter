@@ -49,6 +49,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
+[y1hy11](https://y1hy11.github.io)
+
 Connect with me:
 
 - [GitHub](https://github.com/Y1hy11)
