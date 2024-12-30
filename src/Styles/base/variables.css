@@ -1,0 +1,11 @@
+:root {
+    /* Light theme */
+    --background-light: #ffffff;
+    --text-light: #000000;
+    --primary-color: #0939b8;
+    --secondary-color: #6c757d;
+  
+    /* Dark theme */
+    --background-dark: #1a1a1a;
+    --text-dark: #ffffff;
+  }
