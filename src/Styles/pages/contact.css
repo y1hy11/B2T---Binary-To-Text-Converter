@@ -1,4 +1,3 @@
-/* Base container styles */
 .contact-container {
     max-width: 1200px;
     margin: 20px auto 2rem;
@@ -9,7 +8,7 @@
     padding: 2rem;
   }
   
-  /* Form styles */
+
   .contact-form {
     max-width: 70%;
     margin: 0 auto;
@@ -50,7 +49,7 @@
     color: var(--text-light);
   }
   
-  /* Input, textarea, and select styles */
+
   .form-group input,
   .form-group textarea,
   .form-group select {
@@ -63,7 +62,7 @@
     color: var(--text-light);
   }
   
-  /* Submit button */
+
   .submit-button {
     width: 100%;
     margin-top: 1rem;
@@ -81,7 +80,7 @@
     background-color: #0056b3;
   }
   
-  /* Status message */
+
   .message {
     text-align: center;
     margin-top: 1rem;
@@ -99,7 +98,7 @@
     color: #721c24;
   }
   
-  /* Dark mode styles */
+
   .dark-mode .contact-content {
     background-color: var(--background-dark);
   }
@@ -111,8 +110,7 @@
     color: var(--text-dark);
     border-color: var(--secondary-color);
   }
-  
-  /* Responsive styles */
+
   @media (max-width: 768px) {
     .contact-content {
       margin-top: inherit;
