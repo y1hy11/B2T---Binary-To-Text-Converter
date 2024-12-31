@@ -30,6 +30,13 @@ A Simple modern React-based web application for converting between Binary, Hexad
 - Mobile responsive layout
 - Copy to clipboard functionality
 
+### Future Features
+
+- Support for more formats (e.g., Octal, Base64)
+- Customizable conversion settings
+- Support for multiple languages
+
+
 ## 🛠️ Tech Stack
 
 - **Frontend Framework:** React.js
