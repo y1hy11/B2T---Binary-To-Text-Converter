@@ -61,7 +61,7 @@ const Contact = () => {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            access_key: '80433664-cd42-46e4-b0e8-f2b672267296',
+            access_key: 'process.env.REACT_APP_WEB3FORMS_KEY',
             name: formData.name,
             email: formData.email,
             subject: formData.subject,
