@@ -99,6 +99,8 @@
   right: 500rem;
   width: 150px;
   height: 200px;
+  border: solid 1px gainsboro;
+  border-right: none;
   border-radius: 0 0 0 50px;
   background-color: var(--background-light);
   transition: left 0.3s ease; 
