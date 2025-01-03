@@ -11,6 +11,7 @@ const Convert = lazy(() => import('./pages/Convert'));
 const Contact = lazy(() => import('./pages/Contact'));
 const InfoSection = lazy(() => import('./Components/InfoSection'));
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
+const NotFound = lazy(() => import('./pages/NotFound'));
 
 function App() {
   const [input, setInput] = useState("");
@@ -69,6 +70,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/InfoSection" element={<InfoSection />} />
               <Route path="/privacy" element={<PrivacyPolicy />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
           <Footer />
