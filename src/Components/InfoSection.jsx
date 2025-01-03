@@ -79,5 +79,4 @@ function InfoSection() {
   );
 }
 
-// Wrap InfoSection component with React.memo()
 export default memo(InfoSection);
