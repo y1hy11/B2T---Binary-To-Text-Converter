@@ -5,7 +5,6 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import ErrorBoundary from './Components/ErrorBoundary';
 
-// Lazy load route components
 const Home = lazy(() => import('./pages/Home'));
 const Convert = lazy(() => import('./pages/Convert'));
 const Contact = lazy(() => import('./pages/Contact'));
