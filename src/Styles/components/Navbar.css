@@ -79,7 +79,6 @@
   transform: scale(1.1);
 }
 
-
 .navbar-right {
   display: flex;
   align-items: center;
@@ -95,14 +94,30 @@
 
 .sidebar {
   position: fixed;
-  top: 88px;
+  top: 80px;
   right: 500rem;
   width: 150px;
   height: 200px;
+  border: solid 1px gainsboro;
+  border-right: none;
   border-radius: 0 0 0 50px;
   background-color: var(--background-light);
-  transition: left 0.3s ease; 
+  transition: left 0.3s ease;
   z-index: 999;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 998;
+  display: none;
+}
+
+.sidebar.open + .sidebar-overlay {
+  display: block;
 }
 
 .dark-mode .sidebar {
@@ -110,7 +125,7 @@
 }
 
 .sidebar.open {
-  right: 0; 
+  right: 0;
 }
 
 .sidebar-links {
