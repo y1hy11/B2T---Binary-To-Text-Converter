@@ -43,7 +43,7 @@ function App() {
           <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
           <Suspense fallback={
             <div className="loading-container">
-              <div className="loading-spinner"></div>
+              <div className="loader"></div>
             </div>
           }>
             <Routes>
