@@ -79,7 +79,6 @@
   transform: scale(1.1);
 }
 
-
 .navbar-right {
   display: flex;
   align-items: center;
@@ -103,7 +102,7 @@
   border-right: none;
   border-radius: 0 0 0 50px;
   background-color: var(--background-light);
-  transition: left 0.3s ease; 
+  transition: left 0.3s ease;
   z-index: 999;
 }
 
@@ -126,7 +125,7 @@
 }
 
 .sidebar.open {
-  right: 0; 
+  right: 0;
 }
 
 .sidebar-links {

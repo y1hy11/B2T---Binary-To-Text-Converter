@@ -49,3 +49,157 @@ main p {
 .dark-mode main p {
   color: var(--text-dark);
 }
+
+
+
+@media screen and (max-width: 1024px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 20px 200px 20px;
+    margin-top: 5rem;
+    height: 60rem;
+    width: 100%;
+    background-image: url("https://i.ibb.co/SR5f7K9/B2-T-Header1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  main h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  main p {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 20px 200px 20px;
+    margin-top: 5rem;
+    height: 55rem;
+    width: 100%;
+    background-image: url("https://i.ibb.co/SR5f7K9/B2-T-Header1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  main h1 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+
+  main p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 2%à 20px 200px 20px;
+    margin-top: 5rem;
+    height: 55rem;
+    width: 100%;
+    background-image: url("https://i.ibb.co/wzvqb0D/b2-T-Header-Mobile-S.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  main h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  main p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 170px 20px;
+    margin-top: 5rem;
+    height: 55rem;
+    width: 100%;
+    background-image: url("https://i.ibb.co/wzvqb0D/b2-T-Header-Mobile-S.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  main h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  main p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+}
+
+@media screen and (max-width: 280px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 100px 20px;
+    width: 100%;
+    background-image: url("https://i.ibb.co/wzvqb0D/b2-T-Header-Mobile-S.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  main h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  main p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+}
+
+@media screen and (max-width: 200px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 100px 20px;
+    width: 100%;
+    background-image: url("https://i.ibb.co/wzvqb0D/b2-T-Header-Mobile-S.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  main h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  main p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+}

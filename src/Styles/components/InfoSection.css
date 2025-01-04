@@ -1,7 +1,6 @@
 .info-section {
   padding: 20px;
-  margin: 100px auto;
-
+  margin: 10px auto;
   max-width: 1200px;
 }
 
@@ -28,15 +27,20 @@
 }
 
 .info-card h4 {
+  text-align: center;
   color: var(--primary-color);
   margin-bottom: 15px;
   font-size: 1.2rem;
 }
 
+.info-card p {
+  text-align: center;
+  padding: 2px;
+}
+
 .section-title {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 50px 0 60px 0;
   color: var(--primary-color);
   font-size: 1.5rem;
 }
@@ -47,4 +51,34 @@
 
 .dark-mode .info-card {
   background-color: #2a2a2a;
+}
+
+@media screen and (max-width: 768px) {
+  .info-card {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .info-card p {
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .info-section {
+    padding: 1rem;
+  }
+
+  .info-card {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .info-card h4 {
+    font-size: 1rem;
+  }
+
+  .info-card p {
+    padding: 2px;
+  }
 }
