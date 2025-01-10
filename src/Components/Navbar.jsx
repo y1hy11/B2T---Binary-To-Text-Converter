@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next'; // Add this import
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function Navbar({ isDarkMode, toggleTheme, language, changeLanguage }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -18,15 +18,21 @@ function Navbar({ isDarkMode, toggleTheme, language, changeLanguage }) {
           </a>
         </div>
         <ul className="nav-links">
-          <li><a href="/">{t('nav.home')}</a></li>
-          <li><a href="/Convert">{t('nav.convert')}</a></li>
-          <li><a href="/Contact">{t('nav.contact')}</a></li>
+          <li>
+            <a href="/">{t("nav.home")}</a>
+          </li>
+          <li>
+            <a href="/Convert">{t("nav.convert")}</a>
+          </li>
+          <li>
+            <a href="/Contact">{t("nav.contact")}</a>
+          </li>
         </ul>
         <div className="navbar-right">
           <button className="theme-toggle" onClick={toggleTheme}>
-             {isDarkMode ? '☀️' : '🌙'}
+            {isDarkMode ? "☀️" : "🌙"}
           </button>
-          <select 
+          <select
             value={language}
             onChange={(e) => changeLanguage(e.target.value)}
             className="language-select"
@@ -41,15 +47,28 @@ function Navbar({ isDarkMode, toggleTheme, language, changeLanguage }) {
         </div>
       </nav>
 
-      <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
-
+      <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
         <ul className="sidebar-links">
-          <li><a href="/" onClick={toggleSidebar}>{t('nav.home')}</a></li>
-          <li><a href="/Convert" onClick={toggleSidebar}>{t('nav.convert')}</a></li>
-          <li><a href="/Contact" onClick={toggleSidebar}>{t('nav.contact')}</a></li>
+          <li>
+            <a href="/" onClick={toggleSidebar}>
+              {t("nav.home")}
+            </a>
+          </li>
+          <li>
+            <a href="/Convert" onClick={toggleSidebar}>
+              {t("nav.convert")}
+            </a>
+          </li>
+          <li>
+            <a href="/Contact" onClick={toggleSidebar}>
+              {t("nav.contact")}
+            </a>
+          </li>
         </ul>
       </div>
-      {isSidebarOpen && <div className="sidebar-overlay" onClick={toggleSidebar}></div>}
+      {isSidebarOpen && (
+        <div className="sidebar-overlay" onClick={toggleSidebar}></div>
+      )}
     </>
   );
 }
