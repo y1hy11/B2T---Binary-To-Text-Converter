@@ -1,6 +1,9 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -42,6 +45,7 @@ const Contact = () => {
       ...formData,
       [e.target.name]: e.target.value
     })
+
     if (errors[e.target.name]) {
       setErrors({
         ...errors,
@@ -93,10 +97,10 @@ const Contact = () => {
     <div className="contact-container">
       <div className="contact-content">
         <form className="contact-form" onSubmit={handleSubmit}>
-        <h1>Contact Us</h1>
-        <p>Have questions? We're here to help!</p>
+        <h1>{t('contact.title')}</h1>
+        <p>{t('contact.subtitle')}</p>
           <div className={`form-group ${errors.name ? 'has-error' : ''}`}>
-            <label htmlFor="name">Full Name</label>
+            <label htmlFor="name">{t('contact.form.name')}</label>
             <input
               type="text"
               id="name"
@@ -109,7 +113,7 @@ const Contact = () => {
           </div>
 
           <div className={`form-group ${errors.email ? 'has-error' : ''}`}>
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">{t('contact.form.email')}</label>
             <input
               type="email"
               id="email"
@@ -122,21 +126,21 @@ const Contact = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="subject">Subject</label>
+            <label htmlFor="subject">{t('contact.form.subject')}</label>
             <select
               id="subject"
               name="subject"
               value={formData.subject}
               onChange={handleChange}
             >
-              <option value="general">General Inquiry</option>
-              <option value="support">Technical Support</option>
-              <option value="feedback">Feedback</option>
+                <option value="general">{t('contact.subjectOptions.general')}</option>
+                <option value="support">{t('contact.subjectOptions.support')}</option>
+                <option value="feedback">{t('contact.subjectOptions.feedback')}</option>
             </select>
           </div>
 
           <div className={`form-group ${errors.message ? 'has-error' : ''}`}>
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">{t('contact.form.message')}</label>
             <textarea
               id="message"
               name="message"
@@ -149,13 +153,13 @@ const Contact = () => {
           </div>
 
           {status && (
-            <div className={`message ${status.includes('success') ? 'success' : 'error'}`}>
-              {status}
+            <div className={`message ${status.includes('successfully') ? 'success' : 'error'}`}>
+              {status.includes('successfully') ? t('contact.form.success') : t('contact.form.error')}
             </div>
           )}
 
           <button type="submit" className="submit-button">
-            Send Message
+          {t('contact.form.send')}
           </button>
         </form>
       </div>
