@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Navbar({ isDarkMode, toggleTheme }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -20,6 +21,15 @@ function Navbar({ isDarkMode, toggleTheme }) {
           <li><a href="/Convert">Convert</a></li>
           <li><a href="/Contact">Contact</a></li>
         </ul>
+        <select 
+            value={language}
+            onChange={(e) => changeLanguage(e.target.value)}
+            className="language-select"
+          >
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="ar">العربية</option>
+          </select>
         <div className="navbar-right">
           <button className="theme-toggle" onClick={toggleTheme}>
             {isDarkMode ? '☀️' : '🌙'}
