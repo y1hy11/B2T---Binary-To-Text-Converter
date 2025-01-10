@@ -1,24 +1,27 @@
 import { memo } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h4>B2T</h4>
-          <p>B2T Converter is an online Binary, Hex, Deci, Text conversion tool</p>
+          <h4>{t('footer.about.title')}</h4>
+          <p>{t('footer.about.description')}</p>
         </div>
 
         <div className="footer-section">
-          <h4>Help & Support</h4>
+          <h4>{t('footer.help.title')}</h4>
           <ul>
-            <li><a href="/contact">Contact Us</a></li>
-            <li><a href="/Privacy">Privacy Policy</a></li>  
+            <li><a href="/contact">{t('footer.help.contact')}</a></li>
+            <li><a href="/Privacy">{t('footer.help.privacy')}</a></li>  
           </ul>
         </div>
 
         <div className="footer-section">
-          <h4>Connect With Us</h4>
+          <h4>{t('footer.connect.title')}</h4>
           <div className="social-links">
             <a href="https://x.com/y1hy1_1" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter"></i></a>
             <a href="https://www.linkedin.com/in/yahya-elalaoui/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
@@ -28,11 +31,10 @@ const Footer = () => {
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} | B2T | All rights reserved.</p>
+        <p>{t('footer.copyright')}</p>
       </div>
     </footer>
   );
 };
 
-// Wrap Footer component with React.memo() since it's static
 export default memo(Footer);
