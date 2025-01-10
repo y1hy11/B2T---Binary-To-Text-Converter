@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { convertText } from '../utils/utils';
+import { useTranslation } from 'react-i18next';
 
 const Convert = ({
   input,
@@ -21,8 +22,10 @@ const Convert = ({
   const handleCopy = () => {
     navigator.clipboard.writeText(output);
     setCopyStatus(true);
-    setTimeout(() => setCopyStatus(false), 2000); // Reset after 2 seconds
+    setTimeout(() => setCopyStatus(false), 2000);
   };
+
+  const { t } = useTranslation();
 
   return (
     <div className="converter">
@@ -32,20 +35,20 @@ const Convert = ({
             value={inputType}
             onChange={(e) => setInputType(e.target.value)}
           >
-            <option value="text">Text</option>
-            <option value="binary">Binary</option>
-            <option value="hex">Hexadecimal</option>
-            <option value="decimal">Decimal</option>
+            <option value="text">{t('convert.options.text')}</option>
+            <option value="binary">{t('convert.options.binary')}</option>
+            <option value="hex">{t('convert.options.hex')}</option>
+            <option value="decimal">{t('convert.options.decimal')}</option>
           </select>
           <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Enter your input here"
+            placeholder={t('convert.inputPlaceholder')}
           />
         </div>
 
         <button className="convert-btn" onClick={handleConvert}>
-          Convert →
+         {t('convert.convertButton')}
         </button>
 
         <div className="output-section">
@@ -54,22 +57,22 @@ const Convert = ({
               value={outputType}
               onChange={(e) => setOutputType(e.target.value)}
             >
-              <option value="text">Text</option>
-              <option value="binary">Binary</option>
-              <option value="hex">Hexadecimal</option>
-              <option value="decimal">Decimal</option>
+              <option value="text">{t('convert.options.text')}</option>
+              <option value="binary">{t('convert.options.binary')}</option>
+              <option value="hex">{t('convert.options.hex')}</option>
+              <option value="decimal">{t('convert.options.decimal')}</option>
             </select>
             <button className="copy-button" onClick={handleCopy}>
               <i
                 className={`bi ${copyStatus ? "bi-check" : "bi-clipboard"}`}
               ></i>
-              {copyStatus ? "Copied " : "Copy"}
+              {copyStatus ? t('convert.copied') : t('convert.copyButton')}
             </button>
           </div>
           <textarea
             value={output}
             readOnly
-            placeholder="Output will appear here"
+            placeholder={t('convert.outputPlaceholder')}
           />
         </div>
       </div>
