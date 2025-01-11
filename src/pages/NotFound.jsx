@@ -1,11 +1,15 @@
+import { useTranslation } from 'react-i18next';
+
 const NotFound = () => {
-    return (
-      <div className="not-found">
-        <h1>404 - Page Not Found</h1>
-        <p>The page you are looking for doesn't exist or has been moved.</p>
-        <a href="/" className="btn">Go Home</a>
-      </div>
-    );
-  };
+  const { t } = useTranslation();
   
-  export default NotFound;
+  return (
+    <div className="not-found">
+      <h1>{t('notFound.title')}</h1>
+      <p>{t('notFound.message')}</p>
+      <a href="/" className="btn">{t('notFound.homeButton')}</a>
+    </div>
+  );
+};
+
+export default NotFound;

@@ -6,6 +6,7 @@
 @import "../Styles/pages/Convert.css";
 @import "../Styles/pages/Home.css";
 @import "./pages/PrivacyPolicy.css";
+@import "./pages/NotFound.css";
 @import "./base/variables.css";
 @import "./base/utilities.css";
 @import "./components/Loading.css";

@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { withTranslation } from 'react-i18next';
 
 class ErrorBoundary extends Component {
   constructor(props) {
@@ -19,13 +20,15 @@ class ErrorBoundary extends Component {
   }
 
   render() {
+    const { t } = this.props;
+
     if (this.state.hasError) {
       return (
         <div className="error-boundary">
-          <h2>Something went wrong</h2>
-          <p>Please try refreshing the page or contact support if the problem persists.</p>
+          <h2>{t('errorBoundary.title')}</h2>
+          <p>{t('errorBoundary.message')}</p>
           <button onClick={() => window.location.reload()}>
-            Refresh Page
+            {t('errorBoundary.refreshButton')}
           </button>
         </div>
       );
@@ -35,4 +38,4 @@ class ErrorBoundary extends Component {
   }
 }
 
-export default ErrorBoundary;
+export default withTranslation()(ErrorBoundary);
