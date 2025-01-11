@@ -44,19 +44,12 @@ const Contact = () => {
     const field = e.target;
     setFormData({
       ...formData,
-<<<<<<< HEAD
       [field.name]: field.value
     });
     
     field.setCustomValidity('');
     
     if (errors[field.name]) {
-=======
-      [e.target.name]: e.target.value
-    })
-
-    if (errors[e.target.name]) {
->>>>>>> main
       setErrors({
         ...errors,
         [field.name]: ''
