@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next'; // Add this import
+import { useTranslation } from 'react-i18next';
 
 function Navbar({ isDarkMode, toggleTheme, language, changeLanguage }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
