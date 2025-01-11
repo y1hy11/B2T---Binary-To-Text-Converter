@@ -38,7 +38,6 @@ const resources = {
           message: 'Message',
           send: 'Send Message',
           success: 'Message sent successfully!',
-<<<<<<< HEAD
           error: 'Failed to send message. Please try again.',
           errors: {
             nameRequired: 'Name is required',
@@ -48,9 +47,6 @@ const resources = {
             messageRequired: 'Message is required',
             messageLength: 'Message must be at least 10 characters'
           }
-=======
-          error: 'Failed to send message. Please try again.'
->>>>>>> main
         },
         subjectOptions: {
           general: 'General Inquiry',
