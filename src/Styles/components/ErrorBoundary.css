@@ -38,7 +38,10 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
 /* Dark mode support */
+=======
+>>>>>>> main
 .dark-mode .error-boundary {
   background-color: var(--background-dark);
 }
@@ -47,7 +50,10 @@
   color: var(--text-dark);
 }
 
+<<<<<<< HEAD
 /* Add animation keyframes */
+=======
+>>>>>>> main
 @keyframes fadeIn {
   from {
     opacity: 0;

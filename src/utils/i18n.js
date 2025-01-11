@@ -38,6 +38,7 @@ const resources = {
           message: 'Message',
           send: 'Send Message',
           success: 'Message sent successfully!',
+<<<<<<< HEAD
           error: 'Failed to send message. Please try again.',
           errors: {
             nameRequired: 'Name is required',
@@ -47,6 +48,9 @@ const resources = {
             messageRequired: 'Message is required',
             messageLength: 'Message must be at least 10 characters'
           }
+=======
+          error: 'Failed to send message. Please try again.'
+>>>>>>> main
         },
         subjectOptions: {
           general: 'General Inquiry',
@@ -246,6 +250,7 @@ const resources = {
           message: 'Message',
           send: 'Envoyer le message',
           success: 'Message envoyé avec succès !',
+<<<<<<< HEAD
           error: 'Échec de l\'envoi du message. Veuillez réessayer.',
           errors: {
             nameRequired: 'Le nom est requis',
@@ -255,6 +260,9 @@ const resources = {
             messageRequired: 'Le message est requis',
             messageLength: 'Le message doit contenir au moins 10 caractères'
           }
+=======
+          error: 'Échec de l\'envoi du message. Veuillez réessayer.'
+>>>>>>> main
         },
         subjectOptions: {
           general: 'Demande Générale',
@@ -454,6 +462,7 @@ const resources = {
           message: 'الرسالة',
           send: 'إرسال الرسالة',
           success: 'تم إرسال الرسالة بنجاح!',
+<<<<<<< HEAD
           error: 'فشل إرسال الرسالة. يرجى المحاولة مرة أخرى.',
           errors: {
             nameRequired: 'الاسم مطلوب',
@@ -463,6 +472,9 @@ const resources = {
             messageRequired: 'الرسالة مطلوبة',
             messageLength: 'يجب أن تكون الرسالة 10 أحرف على الأقل'
           }
+=======
+          error: 'فشل إرسال الرسالة. يرجى المحاولة مرة أخرى.'
+>>>>>>> main
         },
         subjectOptions: {
           general: 'استفسار عام',
