@@ -57,6 +57,13 @@ function App() {
     }
   }, [language]);
 
+  useEffect(() => {
+    const title = document.querySelector('title');
+    if (title) {
+      title.textContent = title.getAttribute(`data-${language}`) || title.getAttribute('data-en');
+    }
+  }, [language]);
+
   return (
     <ErrorBoundary>
       <I18nextProvider i18n={i18n}>

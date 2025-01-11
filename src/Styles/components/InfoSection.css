@@ -62,6 +62,7 @@
   .info-card p {
     padding: 2px;
   }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -80,5 +81,11 @@
 
   .info-card p {
     padding: 2px;
+<<<<<<< HEAD
+  }
+  
+}
+=======
   } 
 }
+>>>>>>> main

@@ -67,13 +67,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--background-light);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.dark-mode .theme-toggle {
-  background-color: var(--background-dark);
-}
+
 
 .theme-toggle:hover {
   transform: scale(1.1);
@@ -96,15 +92,27 @@
 .sidebar {
   position: fixed;
   top: 80px;
-  right: 500rem;
-  width: 150px;
-  height: 200px;
-  border: solid 1px gainsboro;
-  border-right: none;
-  border-radius: 0 0 0 50px;
+  right: -100%;
+  width: 250px; 
+  height: auto; 
+  min-height: 300px; 
   background-color: var(--background-light);
+<<<<<<< HEAD
+  transition: right 0.3s ease; 
+=======
   transition: left 0.3s ease; 
+>>>>>>> main
   z-index: 999;
+  padding: 1rem;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  border: solid 1px var(--background-dark);
+  border-top: none;
+  border-radius: 0 0 0 50px;
+}
+
+.dark-mode .sidebar {
+  border: solid 1px var(--background-light);
+  border-right: none;
 }
 
 .sidebar-overlay {
@@ -127,6 +135,10 @@
 
 .sidebar.open {
   right: 0; 
+<<<<<<< HEAD
+  padding: 0;
+=======
+>>>>>>> main
 }
 
 .sidebar-links {
@@ -190,6 +202,31 @@
   padding: 5px;
 }
 
+<<<<<<< HEAD
+.desktop-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sidebar-controls {
+  display: none;
+  width: 100%;
+  padding: 1rem;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.sidebar-controls .theme-toggle,
+.sidebar-controls .language-select {
+  width: 100%;
+  max-width: 200px;
+}
+
+=======
+>>>>>>> main
 [dir="rtl"] .navbar {
   direction: rtl;
 }
@@ -200,8 +237,19 @@
   border-radius: 0 0 50px 0;
   border-top: none;
   border-left: none;
+<<<<<<< HEAD
+  border-right: solid 1px var(--background-dark);
 }
 
+[dir="rtl"] .dark-mode .sidebar.open {
+  border-right: solid 1px var(--background-light);
+}
+
+
+=======
+}
+
+>>>>>>> main
 [dir="rtl"] .nav-links {
   padding-right: 0;
 }
@@ -211,8 +259,13 @@
   margin-right: 0;
 }
 
+<<<<<<< HEAD
+[dir="rtl"] .sidebar-controls {
+  flex-direction: column;
+=======
 [dir="rtl"] .convert-btn {
   transform: scaleX(-1);
+>>>>>>> main
 }
 
 @media (max-width: 768px) {
@@ -241,4 +294,49 @@
   .language-select {
     margin-right: 0.5rem;
   }
+<<<<<<< HEAD
+
+  .desktop-controls {
+    display: none;
+  }
+
+  .sidebar-controls {
+    display: flex;
+  }
+
+  .sidebar-controls .theme-toggle,
+  .sidebar-controls .language-select {
+    max-width: none;
+    margin: 0.5rem 0;
+  }
+
+  .sidebar .theme-toggle {
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .sidebar .language-select {
+    width: initial;
+    padding: 10px;
+  }
+
+  .sidebar {
+    width: 200px; 
+  }
+
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar .language-select {
+    padding: 8px;
+    margin: 10px 0;
+  }
 }
+=======
+}
+>>>>>>> main

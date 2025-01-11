@@ -38,7 +38,19 @@ const resources = {
           message: 'Message',
           send: 'Send Message',
           success: 'Message sent successfully!',
+<<<<<<< HEAD
+          error: 'Failed to send message. Please try again.',
+          errors: {
+            nameRequired: 'Name is required',
+            nameLength: 'Name must be at least 2 characters',
+            emailRequired: 'Email is required', 
+            emailInvalid: 'Please enter a valid email',
+            messageRequired: 'Message is required',
+            messageLength: 'Message must be at least 10 characters'
+          }
+=======
           error: 'Failed to send message. Please try again.'
+>>>>>>> main
         },
         subjectOptions: {
           general: 'General Inquiry',
@@ -238,7 +250,19 @@ const resources = {
           message: 'Message',
           send: 'Envoyer le message',
           success: 'Message envoyé avec succès !',
+<<<<<<< HEAD
+          error: 'Échec de l\'envoi du message. Veuillez réessayer.',
+          errors: {
+            nameRequired: 'Le nom est requis',
+            nameLength: 'Le nom doit contenir au moins 2 caractères',
+            emailRequired: 'L\'email est requis',
+            emailInvalid: 'Veuillez entrer un email valide',
+            messageRequired: 'Le message est requis',
+            messageLength: 'Le message doit contenir au moins 10 caractères'
+          }
+=======
           error: 'Échec de l\'envoi du message. Veuillez réessayer.'
+>>>>>>> main
         },
         subjectOptions: {
           general: 'Demande Générale',
@@ -438,7 +462,19 @@ const resources = {
           message: 'الرسالة',
           send: 'إرسال الرسالة',
           success: 'تم إرسال الرسالة بنجاح!',
+<<<<<<< HEAD
+          error: 'فشل إرسال الرسالة. يرجى المحاولة مرة أخرى.',
+          errors: {
+            nameRequired: 'الاسم مطلوب',
+            nameLength: 'يجب أن يكون الاسم حرفين على الأقل',
+            emailRequired: 'البريد الإلكتروني مطلوب',
+            emailInvalid: 'يرجى إدخال بريد إلكتروني صحيح',
+            messageRequired: 'الرسالة مطلوبة',
+            messageLength: 'يجب أن تكون الرسالة 10 أحرف على الأقل'
+          }
+=======
           error: 'فشل إرسال الرسالة. يرجى المحاولة مرة أخرى.'
+>>>>>>> main
         },
         subjectOptions: {
           general: 'استفسار عام',

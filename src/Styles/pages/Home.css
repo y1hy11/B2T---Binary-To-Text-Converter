@@ -3,7 +3,7 @@ main {
   flex-direction: column;
   width: 100%;
   align-items: center;
-  background-color: rgba(9, 57, 184, 0.1);
+  background-color: rgba(9, 57, 184, 0.1); /* Using project's primary color with opacity */
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   background-image: url("https://i.ibb.co/SR5f7K9/B2-T-Header1.png");
