@@ -93,13 +93,6 @@ option {
   color: var(--text-dark);
 }
 
-<<<<<<< HEAD
-=======
-[dir="rtl"] .converter-container {
-  flex-direction: row-reverse;
-}
-
->>>>>>> main
 [dir="rtl"] .copy-button {
   flex-direction: row-reverse;
 }
@@ -124,8 +117,4 @@ option {
   [dir="rtl"] .converter-container {
     flex-direction: column;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> main

@@ -6,7 +6,7 @@ main {
   background-color: rgba(9, 57, 184, 0.1); /* Using project's primary color with opacity */
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  background-image: url("https://i.ibb.co/SR5f7K9/B2-T-Header1.png");
+  background-image: url("/public/B2T-Header1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ main p {
     margin-top: 5rem;
     height: 60rem;
     width: 100%;
-    background-image: url("https://i.ibb.co/SR5f7K9/B2-T-Header1.png");
+    background-image: url("/public/B2T-Header1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ main p {
     margin-top: 5rem;
     height: 55rem;
     width: 100%;
-    background-image: url("https://i.ibb.co/SR5f7K9/B2-T-Header1.png");
+    background-image: url("/public/B2T-Header1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ main p {
     margin-top: 5rem;
     height: 55rem;
     width: 100%;
-    background-image: url("https://i.ibb.co/wzvqb0D/b2-T-Header-Mobile-S.png");
+    background-image: url("/public/b2T-Header-Mobile-S.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ main p {
     margin-top: 5rem;
     height: 55rem;
     width: 100%;
-    background-image: url("https://i.ibb.co/wzvqb0D/b2-T-Header-Mobile-S.png");
+    background-image: url("/public/b2T-Header-Mobile-S.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ main p {
     flex-direction: column;
     padding: 50px 20px 100px 20px;
     width: 100%;
-    background-image: url("https://i.ibb.co/wzvqb0D/b2-T-Header-Mobile-S.png");
+    background-image: url("/public/b2T-Header-Mobile-S.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -186,7 +186,7 @@ main p {
     flex-direction: column;
     padding: 50px 20px 100px 20px;
     width: 100%;
-    background-image: url("https://i.ibb.co/wzvqb0D/b2-T-Header-Mobile-S.png");
+    background-image: url("/public/b2T-Header-Mobile-S.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
