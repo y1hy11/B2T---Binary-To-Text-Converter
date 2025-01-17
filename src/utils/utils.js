@@ -1,4 +1,3 @@
-// Text to other formats
 export const textToBinary = (text) => {
   return text
     .split("")
@@ -20,7 +19,6 @@ export const textToDecimal = (text) => {
     .join(" ");
 };
 
-// Other formats to text  
 export const binaryToText = (binary) => {
   return binary
     .split(" ")
