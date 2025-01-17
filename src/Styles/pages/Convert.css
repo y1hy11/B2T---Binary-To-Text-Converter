@@ -97,7 +97,7 @@ option {
   flex-direction: row-reverse;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .converter-container {
     display: flex;
     flex-direction: column;
