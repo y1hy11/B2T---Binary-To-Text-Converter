@@ -1,5 +1,5 @@
-import { Component } from 'react';
-import { withTranslation } from 'react-i18next';
+import { Component } from "react";
+import { withTranslation } from "react-i18next";
 
 class ErrorBoundary extends Component {
   constructor(props) {
@@ -14,9 +14,9 @@ class ErrorBoundary extends Component {
   componentDidCatch(error, errorInfo) {
     this.setState({
       error: error,
-      errorInfo: errorInfo
+      errorInfo: errorInfo,
     });
-    console.error('Error caught by boundary:', error, errorInfo);
+    console.error("Error caught by boundary:", error, errorInfo);
   }
 
   render() {
@@ -25,10 +25,10 @@ class ErrorBoundary extends Component {
     if (this.state.hasError) {
       return (
         <div className="error-boundary">
-          <h2>{t('errorBoundary.title')}</h2>
-          <p>{t('errorBoundary.message')}</p>
+          <h2>{t("errorBoundary.title")}</h2>
+          <p>{t("errorBoundary.message")}</p>
           <button onClick={() => window.location.reload()}>
-            {t('errorBoundary.refreshButton')}
+            {t("errorBoundary.refreshButton")}
           </button>
         </div>
       );
