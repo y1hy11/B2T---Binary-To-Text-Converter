@@ -1,17 +1,22 @@
+// Import necessary libraries and hooks
 import { memo } from "react";
 import { useTranslation } from "react-i18next";
 
+/** Footer Component - Renders the website footer with about, help, and social media sections **/
 const Footer = () => {
+  // Initialize translation hook
   const { t } = useTranslation();
 
   return (
     <footer className="footer">
       <div className="footer-content">
+        {/* About Section */}
         <div className="footer-section">
           <h4>{t("footer.about.title")}</h4>
           <p>{t("footer.about.description")}</p>
         </div>
 
+        {/* Help Section - Navigation Links */}
         <div className="footer-section">
           <h4>{t("footer.help.title")}</h4>
           <ul>
@@ -24,6 +29,7 @@ const Footer = () => {
           </ul>
         </div>
 
+        {/* Social Media Links Section */}
         <div className="footer-section">
           <h4>{t("footer.connect.title")}</h4>
           <div className="social-links">
@@ -55,6 +61,7 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Copyright Section */}
       <div className="footer-bottom">
         <p>{t("footer.copyright")}</p>
       </div>
@@ -62,4 +69,5 @@ const Footer = () => {
   );
 };
 
+// Export memoized component to optimize performance
 export default memo(Footer);
