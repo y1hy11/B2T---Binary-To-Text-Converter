@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 
 // Home Component
 function Home() {
-  //Translation hook for internationalization
+  // Translation hook for internationalization
   const { t } = useTranslation();
 
   // Render the Home component

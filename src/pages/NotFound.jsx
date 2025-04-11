@@ -1,8 +1,9 @@
+// Importing useTranslation hook from react-i18next
 import { useTranslation } from "react-i18next";
 
 // NotFound Component
 const NotFound = () => {
-  // Initialize translation hook to access localized text
+  // Translation hook for internationalization
   const { t } = useTranslation();
 
   return (
