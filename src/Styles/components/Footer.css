@@ -61,6 +61,10 @@
   color: var(--primary-color);
 }
 
+.bi {
+  font-size: 1.5rem;
+}
+
 .footer-bottom {
   max-width: 1200px;
   margin: 2rem auto 0;
