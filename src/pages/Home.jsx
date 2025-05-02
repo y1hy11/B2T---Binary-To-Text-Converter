@@ -12,6 +12,9 @@ function Home() {
   return (
     <>
       <main>
+        {/* Decorative background pattern */}
+        <div className="background-pattern"></div>
+
         {/* Page title and subtitle */}
         <h1>{t("home.title")}</h1>
         <p>{t("home.subtitle")}</p>
