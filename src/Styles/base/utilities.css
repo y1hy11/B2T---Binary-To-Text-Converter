@@ -7,3 +7,25 @@ body.dark-mode {
     background-color: var(--background-dark);
     color: var(--text-dark);
 }
+
+.background-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('/public/B2T-LOGO.png');
+    background-repeat: repeat;
+    opacity: 0.2;
+    animation: scrollPattern 50s linear infinite;
+  }
+  
+  @keyframes scrollPattern {
+    from {
+      background-position: 1px, 0, 200px 0;
+    }
+    to {
+      background-position: -400px 0, -100px 0;
+    }
+  }
