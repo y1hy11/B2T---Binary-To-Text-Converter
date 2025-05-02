@@ -16,41 +16,28 @@ function Navbar({ language, changeLanguage }) {
   // SVG icons as components for theme toggle
   const MoonIcon = () => (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
       width="20"
       height="20"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      <path d="M13.0007 21.9998C8.58075 21.9998 5.00075 18.4198 5.00075 13.9998C5.00075 10.4498 7.31075 7.44979 10.5007 6.49979C10.1607 7.44979 10.0007 8.44979 10.0007 9.49979C10.0007 14.1898 13.8107 17.9998 18.5007 17.9998C19.5507 17.9998 20.5507 17.8398 21.5007 17.4998C20.5507 20.0998 17.5507 21.9998 13.0007 21.9998Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   );
 
   const SunIcon = () => (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
       width="20"
       height="20"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="12" cy="12" r="5"></circle>
-      <line x1="12" y1="1" x2="12" y2="3"></line>
-      <line x1="12" y1="21" x2="12" y2="23"></line>
-      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-      <line x1="1" y1="12" x2="3" y2="12"></line>
-      <line x1="21" y1="12" x2="23" y2="12"></line>
-      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      <path d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 1V3M12 21V23M4.22 4.22L5.64 5.64M18.36 18.36L19.78 19.78M1 12H3M21 12H23M4.22 19.78L5.64 18.36M18.36 5.64L19.78 4.22" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   );
 
@@ -100,7 +87,16 @@ function Navbar({ language, changeLanguage }) {
 
           {/* Mobile Menu Toggle Button */}
           <button className="menu-toggle" onClick={toggleSidebar}>
-            <i className="bi bi-list"></i>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M3 7H21M3 12H21M3 17H21" strokeWidth="2" strokeLinecap="round"/>
+            </svg>
           </button>
         </div>
       </nav>
