@@ -3,7 +3,6 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 
 // --- SVG Icon Components (Updated with better SVGs from svgrepo.com) ---
-
 const IconWrapper = ({ children }) => (
   <span style={{ margin: '8px', verticalAlign: 'middle', display: 'inline-block' }}>{children}</span>
 );
@@ -149,7 +148,7 @@ function InfoSection() {
       {/* Number Systems Explanation Section */}
       <h3 className="section-title">
         <IconWrapper><QuestionIcon /></IconWrapper>
-        {t('infoSection.numbersMeaning.title')}
+          {t('infoSection.numbersMeaning.title')}
         <IconWrapper><QuestionIcon /></IconWrapper>
       </h3>
       <div className="info-grid">
@@ -157,8 +156,8 @@ function InfoSection() {
         <div className="info-card">
           <h4>
             <IconWrapper><BinaryIcon /></IconWrapper>
-            {t('infoSection.numbersMeaning.binary.title')}
-<IconWrapper><BinaryIcon /></IconWrapper>
+              {t('infoSection.numbersMeaning.binary.title')}
+            <IconWrapper><BinaryIcon /></IconWrapper>
           </h4>
           {/* Map through array of translated description paragraphs */}
           {t('infoSection.numbersMeaning.binary.description', { returnObjects: true }).map((text, index) => (
@@ -170,7 +169,7 @@ function InfoSection() {
         <div className="info-card">
           <h4>
             <IconWrapper><HexIcon /></IconWrapper>
-            {t('infoSection.numbersMeaning.hexadecimal.title')}
+              {t('infoSection.numbersMeaning.hexadecimal.title')}
             <IconWrapper><HexIcon /></IconWrapper>
           </h4>
           {t('infoSection.numbersMeaning.hexadecimal.description', { returnObjects: true }).map((text, index) => (
@@ -182,7 +181,7 @@ function InfoSection() {
         <div className="info-card">
           <h4>
             <IconWrapper><DecimalIcon /></IconWrapper>
-            {t('infoSection.numbersMeaning.decimal.title')}
+              {t('infoSection.numbersMeaning.decimal.title')}
             <IconWrapper><DecimalIcon /></IconWrapper>
           </h4>
           {t('infoSection.numbersMeaning.decimal.description', { returnObjects: true }).map((text, index) => (
@@ -194,7 +193,7 @@ function InfoSection() {
       {/* Why Choose Our Tool Section */}
       <h3 className="section-title">
         <IconWrapper><SparkleIcon /></IconWrapper>
-        {t('infoSection.whyChoose.title')}
+          {t('infoSection.whyChoose.title')}
         <IconWrapper><SparkleIcon /></IconWrapper>
       </h3>
       <div className="info-grid">
@@ -202,7 +201,7 @@ function InfoSection() {
         <div className="info-card">
           <h4>
             <IconWrapper><TargetIcon /></IconWrapper>
-            {t('infoSection.whyChoose.simple.title')}
+              {t('infoSection.whyChoose.simple.title')}
             <IconWrapper><TargetIcon /></IconWrapper>
           </h4>
           {t('infoSection.whyChoose.simple.description', { returnObjects: true }).map((text, index) => (
@@ -214,7 +213,7 @@ function InfoSection() {
         <div className="info-card">
           <h4>
             <IconWrapper><BookIcon /></IconWrapper>
-            {t('infoSection.whyChoose.learn.title')}
+              {t('infoSection.whyChoose.learn.title')}
             <IconWrapper><BookIcon /></IconWrapper>
           </h4>
           {t('infoSection.whyChoose.learn.description', { returnObjects: true }).map((text, index) => (
@@ -226,7 +225,7 @@ function InfoSection() {
         <div className="info-card">
           <h4>
             <IconWrapper><BoltIcon /></IconWrapper>
-            {t('infoSection.whyChoose.fast.title')}
+              {t('infoSection.whyChoose.fast.title')}
             <IconWrapper><BoltIcon /></IconWrapper>
           </h4>
           {t('infoSection.whyChoose.fast.description', { returnObjects: true }).map((text, index) => (
@@ -238,7 +237,7 @@ function InfoSection() {
       {/* Additional Features Section */}
       <h3 className="section-title">
         <IconWrapper><SparkleIcon /></IconWrapper> {/* Reusing SparkleIcon */}
-        {t('infoSection.additionalFeatures.title')}
+          {t('infoSection.additionalFeatures.title')}
         <IconWrapper><SparkleIcon /></IconWrapper>
       </h3>
       <div className="info-grid">
@@ -246,7 +245,7 @@ function InfoSection() {
         <div className="info-card">
           <h4>
             <IconWrapper><MoonIcon /></IconWrapper>
-            {t('infoSection.additionalFeatures.darkMode.title')}
+              {t('infoSection.additionalFeatures.darkMode.title')}
             <IconWrapper><MoonIcon /></IconWrapper>
           </h4>
           {t('infoSection.additionalFeatures.darkMode.description', { returnObjects: true }).map((text, index) => (
@@ -258,7 +257,7 @@ function InfoSection() {
         <div className="info-card">
           <h4>
             <IconWrapper><ResponsiveIcon /></IconWrapper>
-            {t('infoSection.additionalFeatures.responsiveDesign.title')}
+              {t('infoSection.additionalFeatures.responsiveDesign.title')}
             <IconWrapper><ResponsiveIcon /></IconWrapper>
           </h4>
           {t('infoSection.additionalFeatures.responsiveDesign.description', { returnObjects: true }).map((text, index) => (
@@ -270,7 +269,7 @@ function InfoSection() {
         <div className="info-card">
           <h4>
             <IconWrapper><ClipboardIcon /></IconWrapper>
-            {t('infoSection.additionalFeatures.copyToClipboard.title')}
+              {t('infoSection.additionalFeatures.copyToClipboard.title')}
             <IconWrapper><ClipboardIcon /></IconWrapper>
           </h4>
           {t('infoSection.additionalFeatures.copyToClipboard.description', { returnObjects: true }).map((text, index) => (
