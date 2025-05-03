@@ -128,9 +128,9 @@ const resources = {
       },
       infoSection: {
         numbersMeaning: {
-          title: "🤔 What do these numbers mean? 🤔",
+          title: "What do these numbers mean?",
           binary: {
-            title: "💻 Binary (Base-2) 💻",
+            title: "Binary (Base-2)",
             description: [
               "The computer's language - just 0s and 1s!",
               "Like a light switch: ON (1) or OFF (0)",
@@ -138,7 +138,7 @@ const resources = {
             ]
           },
           hexadecimal: {
-            title: "🔢 Hexadecimal (Base-16) 🔢",
+            title: "Hexadecimal (Base-16)",
             description: [
               "A shorter way to write binary numbers using 0-9 and A-F",
               "Makes long binary numbers easier to read",
@@ -146,7 +146,7 @@ const resources = {
             ]
           },
           decimal: {
-            title: "🔢 Decimal (Base-10) 🔢",
+            title: "Decimal (Base-10)",
             description: [
               "Our everyday numbers (0-9)",
               "What we use to count and do math",
@@ -155,9 +155,9 @@ const resources = {
           }
         },
         whyChoose: {
-          title: "✨ Why Choose B2T? ✨",
+          title: "Why Choose B2T?",
           simple: {
-            title: "🎯 Simple & Intuitive 🎯",
+            title: "Simple & Intuitive",
             description: [
               "Clean, modern interface",
               "No complex setup needed",
@@ -165,7 +165,7 @@ const resources = {
             ]
           },
           learn: {
-            title: "📚 Learn As You Convert 📚",
+            title: "Learn As You Convert",
             description: [
               "Understanding different number systems",
               "See conversions in real-time",
@@ -173,7 +173,7 @@ const resources = {
             ]
           },
           fast: {
-            title: "⚡ Fast & Efficient ⚡",
+            title: "Fast & Efficient",
             description: [
               "Instant conversions",
               "No server requests needed",
@@ -182,9 +182,9 @@ const resources = {
           }
         },
         additionalFeatures: {
-          title: "✨ Additional Features ✨",
+          title: "Additional Features",
           darkMode: {
-            title: "🌙 Dark Mode 🌙",
+            title: "Dark Mode",
             description: [
               "Easy on the eyes",
               "Toggle between light and dark themes",
@@ -192,7 +192,7 @@ const resources = {
             ]
           },
           responsiveDesign: {
-            title: "📱 Responsive Design 📱",
+            title: "Responsive Design",
             description: [
               "Works on all devices",
               "Adapts to any screen size",
@@ -200,7 +200,7 @@ const resources = {
             ]
           },
           copyToClipboard: {
-            title: "📋 Copy to Clipboard 📋",
+            title: "Copy to Clipboard",
             description: [
               "One-click copying",
               "Quick and convenient",
@@ -336,9 +336,9 @@ const resources = {
       },
       infoSection: {
         numbersMeaning: {
-          title: "🤔 Que signifient ces nombres ? 🤔",
+          title: "Que signifient ces nombres ?",
           binary: {
-            title: "💻 Binaire (Base-2) 💻",
+            title: "Binaire (Base-2)",
             description: [
               "Le langage de l'ordinateur - juste des 0 et des 1 !",
               "Comme un interrupteur : MARCHE (1) ou ARRÊT (0)",
@@ -346,7 +346,7 @@ const resources = {
             ]
           },
           hexadecimal: {
-            title: "🔢 Hexadécimal (Base-16) 🔢",
+            title: "Hexadécimal (Base-16)",
             description: [
               "Une façon plus courte d'écrire les nombres binaires en utilisant 0-9 et A-F",
               "Rend les longs nombres binaires plus faciles à lire",
@@ -354,7 +354,7 @@ const resources = {
             ]
           },
           decimal: {
-            title: "🔢 Décimal (Base-10) 🔢",
+            title: "Décimal (Base-10)",
             description: [
               "Nos nombres quotidiens (0-9)",
               "Ce que nous utilisons pour compter et faire des mathématiques",
@@ -363,9 +363,9 @@ const resources = {
           }
         },
         whyChoose: {
-          title: "✨ Pourquoi choisir B2T ? ✨",
+          title: "Pourquoi choisir B2T ?",
           simple: {
-            title: "🎯 Simple & Intuitif 🎯",
+            title: "Simple & Intuitif",
             description: [
               "Interface claire et moderne",
               "Pas de configuration complexe",
@@ -373,7 +373,7 @@ const resources = {
             ]
           },
           learn: {
-            title: "📚 Apprenez en Convertissant 📚",
+            title: "Apprenez en Convertissant",
             description: [
               "Comprendre différents systèmes numériques",
               "Voir les conversions en temps réel",
@@ -381,7 +381,7 @@ const resources = {
             ]
           },
           fast: {
-            title: "⚡ Rapide & Efficace ⚡",
+            title: "Rapide & Efficace",
             description: [
               "Conversions instantanées",
               "Aucune requête serveur nécessaire",
@@ -390,9 +390,9 @@ const resources = {
           }
         },
         additionalFeatures: {
-          title: "✨ Fonctionnalités Supplémentaires ✨",
+          title: "Fonctionnalités Supplémentaires",
           darkMode: {
-            title: "🌙 Mode Sombre 🌙",
+            title: "Mode Sombre",
             description: [
               "Agréable pour les yeux",
               "Basculez entre les thèmes clair et sombre",
@@ -400,7 +400,7 @@ const resources = {
             ]
           },
           responsiveDesign: {
-            title: "📱 Design Responsive 📱",
+            title: "Design Responsive",
             description: [
               "Fonctionne sur tous les appareils",
               "S'adapte à toutes les tailles d'écran",
@@ -408,7 +408,7 @@ const resources = {
             ]
           },
           copyToClipboard: {
-            title: "📋 Copier dans le Presse-papiers 📋",
+            title: "Copier dans le Presse-papiers",
             description: [
               "Copie en un clic",
               "Rapide et pratique",
@@ -544,25 +544,25 @@ const resources = {
       },
       infoSection: {
         numbersMeaning: {
-          title: "🤔 ماذا تعني هذه الأرقام؟ 🤔",
+          title: "ماذا تعني هذه الأرقام؟",
           binary: {
-            title: "💻 ثنائي (قاعدة-2) 💻",
+            title: "ثنائي (قاعدة-2)",
             description: [
-              "!لغة الكمبيوتر - فقط 0 و 1",
-              "(0) أو مطفأ (1) مثل مفتاح الإضاءة: مضاء",
+              "لغة الكمبيوتر - فقط 0 و 1",
+              "مثل مفتاح الإضاءة: مضاء (1) أو مطفأ (0)",
               "مثال سريع: Hello → 01001000 01100101 01101100 01101100 01101111"
             ]
           },
           hexadecimal: {
-            title: "🔢 سداسي عشري (قاعدة-16) 🔢",
+            title: "سداسي عشري (قاعدة-16)",
             description: [
-              "F-A طريقة أقصر لكتابة الأرقام الثنائية باستخدام 0-9 و",
+              "طريقة أقصر لكتابة الأرقام الثنائية باستخدام 0-9 و A-F",
               "يجعل الأرقام الثنائية الطويلة أسهل للقراءة",
               "مثال سريع: Hello → 48 65 6C 6C 6F"
             ]
           },
           decimal: {
-            title: "🔢 عشري (قاعدة-10) 🔢",
+            title: "عشري (قاعدة-10)",
             description: [
               "أرقامنا اليومية (0-9)",
               "ما نستخدمه للعد والحساب",
@@ -571,17 +571,17 @@ const resources = {
           }
         },
         whyChoose: {
-          title: "✨ لماذا تختار B2T؟ ✨",
+          title: "لماذا تختار B2T؟",
           simple: {
-            title: "🎯 بسيط وبديهي 🎯",
+            title: "بسيط وبديهي",
             description: [
               "واجهة نظيفة وحديثة",
               "لا يحتاج إلى إعداد معقد",
-              "!ابدأ التحويل فورًا"
+              "ابدأ التحويل فورًا"
             ]
           },
           learn: {
-            title: "📚 تعلم أثناء التحويل 📚",
+            title: "تعلم أثناء التحويل",
             description: [
               "فهم أنظمة الأعداد المختلفة",
               "رؤية التحويلات في الوقت الفعلي",
@@ -589,7 +589,7 @@ const resources = {
             ]
           },
           fast: {
-            title: "⚡ سريع وفعال ⚡",
+            title: "سريع وفعال",
             description: [
               "تحويلات فورية",
               "لا حاجة لطلبات الخادم",
@@ -598,9 +598,9 @@ const resources = {
           }
         },
         additionalFeatures: {
-          title: "✨ ميزات إضافية ✨",
+          title: "ميزات إضافية",
           darkMode: {
-            title: "🌙 الوضع الداكن 🌙",
+            title: "الوضع الداكن",
             description: [
               "مريح للعين",
               "التبديل بين السمات الفاتحة والداكنة",
@@ -608,7 +608,7 @@ const resources = {
             ]
           },
           responsiveDesign: {
-            title: "📱 تصميم متجاوب 📱",
+            title: "تصميم متجاوب",
             description: [
               "يعمل على جميع الأجهزة",
               "يتكيف مع أي حجم شاشة",
@@ -616,7 +616,7 @@ const resources = {
             ]
           },
           copyToClipboard: {
-            title: "📋 نسخ إلى الحافظة 📋",
+            title: "نسخ إلى الحافظة",
             description: [
               "نسخ بنقرة واحدة",
               "سريع ومريح",
